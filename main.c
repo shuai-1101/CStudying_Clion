@@ -10,7 +10,6 @@ int main() {
         Push_Stack(stack,i*10);
     }
 
-
     //判断此时栈是否已经满了
     if (true == Stack_IsFull(stack)) {
         printf("栈已满!\n");
